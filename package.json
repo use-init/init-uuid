@@ -4,7 +4,7 @@
   "description": "Uuid generation 4",
   "main": "dist/index.js",
   "scripts": {
-    "install": "webpack"
+    "postinstall": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "url": "https://github.com/use-init/init-uuid/issues"
   },
   "homepage": "https://github.com/use-init/init-uuid#readme",
-  "devDependencies": {
+  "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "webpack": "^3.10.0"
