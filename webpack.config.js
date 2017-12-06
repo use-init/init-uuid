@@ -12,7 +12,9 @@ module.exports = {
   cache: true,
   output: {
     path: path.resolve(__dirname, OUTPUTDIR),
-    filename: '[name].js'
+    filename: '[name].js',
+    library: 'init-uuid',
+    libraryTarget: 'umd'
   },
   module: {
     rules: [
